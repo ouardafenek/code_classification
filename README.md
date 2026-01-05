@@ -1,6 +1,7 @@
 **The Notebook** 
   
   It contains:
+
     * The pre-processing of the dataset -> Transformation to DataFrame (from code_classification_dataset to dataset_raw_parquet) 
 
     * The tags filtering: Droping the rows of the dataframe that don't have any of the tags: "math", "graphs",
@@ -25,6 +26,7 @@
 **TRAIN COMMANDS** 
 
 **Usage**: 
+
     train_baseline_cli.py [-h] [--input_path INPUT_PATH] [--output_path OUTPUT_PATH]
                              [--text_column TEXT_COLUMN] [--preprocess {none,nltk}]
 
